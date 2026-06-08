@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>POSH Practice Lab | Public Prototype Preview</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="POSH Practice Lab home">
+        <span class="mark">P</span>
+        <span><strong>POSH Practice Lab</strong><small>Law-to-practice prototype</small></span>
+      </a>
+      <nav aria-label="Preview sections">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#learning">Learning</a>
+        <a href="#filing">Filing</a>
+        <a href="#updates">Updates</a>
+        <a href="#feedback">Feedback</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Public prototype preview</p>
+        <h1>India POSH compliance, translated into practical workflows.</h1>
+        <p class="lede">POSH Practice Lab converts the POSH Act, official guidance and case-law principles into learning paths, compliance trackers, filing-preparation guidance, reporting readiness and legal update review queues.</p>
+        <div class="actions">
+          <a class="button primary" href="#dashboard">Explore preview</a>
+          <a class="button" href="https://github.com/legalworkflowlab/posh-practice-lab" rel="noreferrer">Private source repo</a>
+        </div>
+        <div class="warning">This public preview uses dummy data only. Do not enter real complaints, allegations, employee information, confidential records or sensitive documents. This is not legal advice and is not a real complaint filing system.</div>
+      </section>
+
+      <section class="grid three" id="positioning">
+        <article class="card"><span class="badge green">Law-to-practice</span><h2>Not only training</h2><p>Combines legal learning, compliance readiness, IC/LC awareness, reporting support and trainer/consultant practice tools.</p></article>
+        <article class="card"><span class="badge amber">Human review</span><h2>Official-source discipline</h2><p>Legal updates remain pending until a human legal reviewer approves source changes and affected workflows.</p></article>
+        <article class="card"><span class="badge red">Safety boundary</span><h2>No complaint intake</h2><p>The prototype must not decide facts, determine guilt, recommend final punishment, replace IC/LC inquiry or auto-file on SHe-Box.</p></article>
+      </section>
+
+      <section id="dashboard" class="section">
+        <div class="section-head"><p class="eyebrow">Dashboard</p><h2>Review operating view</h2></div>
+        <div class="metrics">
+          <div class="metric amber"><span>Compliance score</span><strong>50%</strong></div>
+          <div class="metric red"><span>High-risk gaps</span><strong>4</strong></div>
+          <div class="metric amber"><span>Pending updates</span><strong>2</strong></div>
+          <div class="metric green"><span>Learning progress</span><strong>54%</strong></div>
+        </div>
+        <div class="grid two">
+          <article class="card"><h3>High-risk gaps</h3><ul><li>Location-wise IC mapping needs review.</li><li>IC training evidence is stale.</li><li>Confidentiality controls are prototype-only.</li><li>SHe-Box status needs manual verification.</li></ul></article>
+          <article class="card"><h3>Case-law spotlight</h3><p><strong>Aureliano Fernandes v State of Goa and Others</strong></p><p>Practice lesson: IC constitution, training and inquiry discipline should not be treated as paperwork.</p></article>
+        </div>
+      </section>
+
+      <section id="learning" class="section">
+        <div class="section-head"><p class="eyebrow">Learning path</p><h2>Chapter-wise POSH learning</h2></div>
+        <div class="grid four">
+          <article class="card"><h3>Chapter II</h3><p>Constitution of Internal Committee.</p><span class="badge amber">IC readiness</span></article>
+          <article class="card"><h3>Chapter IV</h3><p>Complaint stage, route awareness and confidentiality.</p><span class="badge red">Dummy workflow only</span></article>
+          <article class="card"><h3>Chapter V</h3><p>Inquiry process, natural justice and records.</p><span class="badge amber">Human review</span></article>
+          <article class="card"><h3>Chapter VI</h3><p>Employer duties, awareness and annual readiness.</p><span class="badge green">Compliance</span></article>
+        </div>
+      </section>
+
+      <section id="filing" class="section">
+        <div class="section-head"><p class="eyebrow">Filing and reporting</p><h2>Guidance without auto-filing</h2></div>
+        <div class="grid three">
+          <article class="card"><h3>Complaint Route Finder</h3><p>Shows possible IC, LC, SHe-Box or legal-assistance routes without deciding facts or outcome.</p></article>
+          <article class="card"><h3>SHe-Box Filing Pack</h3><p>Prepares a dummy filing summary and routes users to the official portal manually.</p></article>
+          <article class="card"><h3>Annual Report Tracker</h3><p>Tracks received, disposed, pending, training and submission-status placeholders.</p></article>
+        </div>
+        <div class="warning strong">Real POSH complaints require confidentiality, privacy safeguards, role-based access, human review and appropriate legal/process guidance.</div>
+      </section>
+
+      <section id="updates" class="section">
+        <div class="section-head"><p class="eyebrow">Legal updates</p><h2>Official-source alert centre</h2></div>
+        <div class="grid two">
+          <article class="card"><span class="badge amber">Pending review</span><h3>SHe-Box FAQ change</h3><p>Portal guidance may affect route finder and filing pack checklist language.</p><button>Explain in simple language</button></article>
+          <article class="card"><span class="badge red">High risk</span><h3>Case-law principle update</h3><p>Potential impact on IC training, inquiry procedure and natural justice workflows.</p><button>Show affected checklist</button></article>
+        </div>
+      </section>
+
+      <section id="feedback" class="section">
+        <div class="section-head"><p class="eyebrow">Feedback module</p><h2>Reviewer feedback fields</h2></div>
+        <div class="card form-preview">
+          <label>Page reviewed<input value="Dashboard" readonly /></label>
+          <label>User role<select><option>HR Manager</option><option>IC Member</option><option>Trainer</option></select></label>
+          <label>What was useful<textarea readonly>Clear risk and readiness snapshot.</textarea></label>
+          <label>What is missing<textarea readonly>Production security and legal review workflow.</textarea></label>
+          <p class="muted">The private app sends feedback notifications to the admin. This public preview does not collect submissions.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>This prototype is for learning, review and workflow demonstration only. It is not legal advice.</p>
+      <p>Source repository remains private under the existing GitHub account.</p>
+    </footer>
+  </body>
+</html>
